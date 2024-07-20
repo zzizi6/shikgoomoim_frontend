@@ -9,18 +9,6 @@ export default function Root({ children }: PropsWithChildren) {
   return (
     <html lang="en">
       <head>
-        // 카카오 로그인
-      <script src="https://t1.kakaocdn.net/kakao_js_sdk/${VERSION}/kakao.min.js"
-    integrity="${INTEGRITY_VALUE}" crossOrigin="anonymous"></script>
-
-        <script>
-           // SDK를 초기화 합니다. 사용할 앱의 JavaScript 키를 설정해야 합니다.
-            Kakao.init('d359fe7f7c4a7af009ee9c9c6772e7df');
-
-            // SDK 초기화 여부를 판단합니다.
-            console.log(Kakao.isInitialized());
-        </script>
-
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
